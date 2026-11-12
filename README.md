@@ -4,6 +4,12 @@ Tiny watchdog that returns players to routing bucket 0 after `wasabi_spawn`
 occasionally strands them in bucket 1 (invisible to everyone else, "ghost
 town" symptom on join).
 
+## Status
+
+Not running on DelPerroSands since 12 November 2026. This fix is now part of `dps-fixes`, which
+carries the same code along with the server's other small fixes. Run this script or `dps-fixes`,
+not both: running both does the same job twice.
+
 ## What it is for
 
 A player joins, picks a character, and the city is empty. No other players, no trains, nobody
@@ -80,6 +86,7 @@ There is no config file. Two numbers sit at the top of `server/main.lua`:
 
 ## Recent changes
 
+- **12 November 2026.** Taken off the DelPerroSands server. `dps-fixes` does this job now.
 - **12 November 2026.** README: what it is for, how it works alone and with paid scripts, other
   DPS scripts.
 
